@@ -1,0 +1,8 @@
+(executable
+ (public_name calct_project)
+ ;(name main)
+ (name calct)
+ (libraries calct_project))
+ 
+(ocamlyacc parser1)
+(ocamllex lexer1)
